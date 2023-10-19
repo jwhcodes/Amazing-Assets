@@ -1,0 +1,16 @@
+{
+  "title": "What we do",
+  "text": "Amazing Assets focuses on producing digital assets and innovative technology to support growth and lead companies into the future.",
+  "section": [
+    {
+      "title": "Why Amazing Assets??",
+      "content": "Amazing Assets aims to optimise, and integrate processes, applications and design by developing Business Models, Robotic Process Automation (RPA), Cloud Computing and Big Data.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Our operation",
+      "content": "Amazing Assets supports industrial groups operating in Banking, Insurance, Financial Operators, Media and Telco to transform it’s operations, assets and technology by providing innovative services and content.",
+      "icon": "notes.svg"
+    }
+  ]
+}

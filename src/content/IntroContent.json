@@ -1,0 +1,13 @@
+{
+  "title": "Amazing Assets",
+  "text": "Bringing innovative future to you here and now.",
+  "button": [
+    {
+      "title": "Get Quote"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}
