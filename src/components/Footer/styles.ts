@@ -21,6 +21,7 @@ export const NavLink = styled(Link)`
   font-size: 1rem;
   margin-bottom: 0.625rem;
   transition: all 0.2s ease-in-out;
+  
 
   &:hover,
   &:active,
@@ -30,7 +31,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
-  background: rgb(241, 242, 243);
+  background: #2E186A;
   position: relative;
   width: 100%;
   margin-right: auto;
@@ -88,6 +89,7 @@ export const Empty = styled("div")`
 `;
 
 export const FooterContainer = styled("div")`
+  background-color: #2E186A;
   max-width: 510px;
   width: 100%;
   display: flex;
@@ -95,6 +97,7 @@ export const FooterContainer = styled("div")`
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
+
 
   a {
     &:hover,

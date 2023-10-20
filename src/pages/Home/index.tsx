@@ -64,7 +64,7 @@ const Home = () => {
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"
-        id="mission"
+        id="product"
       />
       <Contact
         title={ContactContent.title}

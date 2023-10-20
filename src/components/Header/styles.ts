@@ -8,6 +8,7 @@ export const HeaderSection = styled("header")`
   .ant-row-space-between {
     align-items: center;
     text-align: center;
+    background-color: #2E186A;
   }
 `;
 
@@ -93,6 +94,7 @@ export const Outline = styled(MenuOutlined)<any>`
 export const Span = styled("span")`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  color: white;
 
   &:hover,
   &:active,
