@@ -31,7 +31,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
-  background: #2E186A;
+  background: hsl(200, 100%, 10%);
   position: relative;
   width: 100%;
   margin-right: auto;
@@ -45,7 +45,7 @@ export const LogoContainer = styled("div")`
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
+  color: hsl(200, 100%, 10%);
   font-size: 14px;
   width: 70%;
 `;
@@ -89,7 +89,7 @@ export const Empty = styled("div")`
 `;
 
 export const FooterContainer = styled("div")`
-  background-color: #2E186A;
+  background-color: hsl(200, 100%, 10%);
   max-width: 510px;
   width: 100%;
   display: flex;

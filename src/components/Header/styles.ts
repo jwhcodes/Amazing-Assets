@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled("header")`
-  padding: 1rem 0.5rem;
+  width: 100vw;
 
   .ant-row-space-between {
     align-items: center;
     text-align: center;
-    background-color: #2E186A;
+    background-color: hsl(200, 100%, 10%);
   }
 `;
 
@@ -47,11 +47,12 @@ export const Burger = styled("div")`
   @media only screen and (max-width: 890px) {
     display: block;
   }
+  margin: 2vw;
 
   display: none;
 
   svg {
-    fill: #2e186a;
+    fill: white;
   }
 `;
 

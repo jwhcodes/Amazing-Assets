@@ -14,6 +14,10 @@ export const Styles = createGlobalStyle`
         font-style: normal;
     }
 
+    .emkYpc{
+        background-color: hsl(200, 100%, 10%);
+    }
+
 
     body,
     html,
@@ -25,7 +29,7 @@ export const Styles = createGlobalStyle`
     body {
         background-image: url('https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');
         background-repeat: no-repeat;
-        background-size: 100vw 100vh;
+        background-size: 100% 100%;
         background-attachment: fixed;
         margin:0;
         padding:0;
@@ -67,7 +71,7 @@ box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: hsl(200, 100%, 10%);
         font-size: 56px;
         line-height: 1.18;
         white-space: pre-line;
@@ -82,10 +86,12 @@ box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     }
 
     p {
-        color: #18216d;
-        font-size: 21px;        
+        color: hsl(120, 100%, 25%);
+        font-size: 25px;        
         line-height: 1.41;
         white-space: pre-line;
+        text-decoration: strong;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 hsl(120, 100%, 25%), -1px 0 0 hsl(120, 100%, 25%);
     }
 
     h1 {
