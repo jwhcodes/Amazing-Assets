@@ -4,10 +4,6 @@
   "button": [
     {
       "title": "Get Quote"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }

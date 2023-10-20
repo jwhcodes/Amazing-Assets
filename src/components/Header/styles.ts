@@ -41,7 +41,7 @@ export const ContactWrapper = styled("div")<any>`
   text-align: center;
   border-radius: 1.25rem;
   display: inline-block;
-`;
+   `;
 
 export const Burger = styled("div")`
   @media only screen and (max-width: 890px) {

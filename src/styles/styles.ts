@@ -23,12 +23,21 @@ export const Styles = createGlobalStyle`
 
 
     body {
+        background-image: url('https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
         margin:0;
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
         overflow-x: hidden;
+    }
+
+    img{
+        -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     }
 
     a:hover {
@@ -61,6 +70,7 @@ export const Styles = createGlobalStyle`
         color: #18216d;
         font-size: 56px;
         line-height: 1.18;
+        white-space: pre-line;
 
         @media only screen and (max-width: 890px) {
           font-size: 47px;
