@@ -94,10 +94,6 @@ box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
         text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 hsl(120, 100%, 25%), -1px 0 0 hsl(120, 100%, 25%);
     }
 
-    h1 {
-        font-weight: 600;
-    }
-
     a {
         text-decoration: none;
         outline: none;
