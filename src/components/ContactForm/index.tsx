@@ -7,6 +7,7 @@ import validate from "../../common/utils/validationRules";
 import { Button } from "../../common/Button";
 import Block from "../Block";
 import Input from "../../common/Input";
+import DropDown from "../../common/DropDown"
 import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 
@@ -35,6 +36,11 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right">
             <FormGroup autoComplete="off" onSubmit={handleSubmit}>
+              <Col span={24}>
+                <DropDown
+                />
+                <ValidationType type="name" />
+              </Col>
               <Col span={24}>
                 <Input
                   type="text"
